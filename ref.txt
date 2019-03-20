@@ -11,3 +11,30 @@ https://blog.csdn.net/zjy900507/article/details/80907256
 https://blog.csdn.net/xiaqunfeng123/article/details/51301749
 
 https://blog.csdn.net/linuxandroidwince/article/details/75221300
+
+
+
+shared object
+
+https://www.cnblogs.com/qingjiaowoxiaoxioashou/p/6410588.html
+
+https://www.cnblogs.com/zhangsir6/articles/2956798.html
+
+https://www.cnblogs.com/zhangsir6/articles/2956792.html
+
+https://www.cnblogs.com/zhangsir6/articles/2805687.html
+
+https://www.cnblogs.com/zhangdewang/p/9792262.html
+
+
+
+./main: 没有那个文件或目录
+
+https://www.cnblogs.com/rohens-hbg/p/4763378.html
+
+https://blog.csdn.net/time_tries_all/article/details/78571180
+
+
+
+
+

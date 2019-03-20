@@ -1,6 +1,7 @@
 
 
-CC      := gcc
+#CC      := gcc
+CC      := x86_64-linux-musl-gcc
 CFLAGS  := -std=c11 -fPIC -I src/hello 
 LDFLAGS := 
 
@@ -41,7 +42,8 @@ Makefile.dep: $(SRCS)
 run: build
 	LD_LIBRARY_PATH=bin $(BIN_NAME)
 
-
+strace: build
+	LD_LIBRARY_PATH=bin strace $(BIN_NAME)
 
 clean:
 	rm $(BIN_NAME) $(LIB_NAME) $(OBJS)
