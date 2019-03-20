@@ -27,6 +27,26 @@ https://www.cnblogs.com/zhangsir6/articles/2805687.html
 https://www.cnblogs.com/zhangdewang/p/9792262.html
 
 
+动态链接库原理
+
+https://www.ibm.com/developerworks/cn/linux/l-dynlink/
+
+https://www.cnblogs.com/Anker/p/3527677.html
+
+http://www.cnblogs.com/xuxm2007/archive/2010/12/08/1900608.html
+
+https://blog.csdn.net/leichelle/article/details/7465763
+
+https://www.cnblogs.com/amyzhu/p/8871475.html
+
+https://blog.csdn.net/u011402017/article/details/79513754
+
+https://blog.csdn.net/hejinjing_tom_com/article/details/52454478
+
+https://blog.csdn.net/liu0808/article/details/79012187
+
+https://www.cnblogs.com/J1ac/p/9102027.html
+
 
 ./main: 没有那个文件或目录
 

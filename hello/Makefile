@@ -1,8 +1,8 @@
 
 
-#CC      := gcc
-CC      := x86_64-linux-musl-gcc
-CFLAGS  := -std=c11 -fPIC -I src/hello 
+CC      := gcc
+#CC      := x86_64-linux-musl-gcc
+CFLAGS  := -std=c11 -fPIC -g -O -I src/hello 
 LDFLAGS := 
 
 

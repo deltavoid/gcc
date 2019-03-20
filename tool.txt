@@ -1,0 +1,24 @@
+
+
+ojbdump  反汇编
+
+
+
+
+nm  查看动态链接库中的符号
+
+    nm -D ld-linux-x86-64.so.2 
+
+
+
+readelf
+
+
+
+
+
+（1）ld 是gcc的链接程序。
+（2）ldd是查看可执行文件中所依赖的库的程序，比如想查main程序用到了那些动态库，可以直接  ldd main
+（3）ldconfig用来更新文件/etc/ld.so.conf的修改生效。
+（4）nm用来查看.so库中的函数名字，标记是T的就是动态库里面生成的名字。如：nm /lib/libc*.so
+
