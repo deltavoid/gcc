@@ -1,7 +1,8 @@
 
 
-CC      := gcc
+#CC      := gcc
 #CC      := x86_64-linux-musl-gcc
+CC      := musl-gcc
 CFLAGS  := -std=c11 -fPIC -g -O -I src/hello 
 LDFLAGS := 
 
@@ -33,7 +34,7 @@ $(BIN_NAME): $(BIN_OBJS) $(LIB_NAME)
 include Makefile.dep
 Makefile.dep: $(SRCS) 
 	$(CC) $(CFLAGS) -MM $^ > $@
-	-(mkdir bin)
+	-mkdir bin
 
 .c.o:
 	$(CC) $(CFLAGS) -o $@ -c $^
